@@ -15,7 +15,7 @@ SET MS_VC_REDIST_URL=https://aka.ms/vs/17/release/vc_redist.x64.exe
 SET REPO_DOWNLOAD_URL=https://github.com/kandi1clickkits/next-word-prediction/releases/download/v1.0.0/next-word-prediction.zip
 SET REPO_DEPENDENCIES_URL=https://raw.githubusercontent.com/kandi1clickkits/next-word-prediction/main/requirements.txt
 SET REPO_NAME=next-word-prediction.zip
-SET EXTRACTED_REPO_DIR=next-word-prediction-master
+SET EXTRACTED_REPO_DIR=next-word-prediction
 SET NOTEBOOK_NAME=Next Word Predictor.ipynb
 where /q python
 IF ERRORLEVEL 1 (
